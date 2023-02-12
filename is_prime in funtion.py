@@ -1,4 +1,5 @@
 def is_prime(l,u):
+    #creat empty list
     A=[]
     B=[]
     a=[]
@@ -29,6 +30,7 @@ def is_prime(l,u):
 
 l=int(input('enter lowest limit'))
 u=int(input('enter upper limit'))
+#calling funtion
 is_prime(l,u)
 
 
